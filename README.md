@@ -2,7 +2,7 @@
 
 ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish**. It packages the loader, plugin, Dear ImGui runtime, and BepInEx x64 files into a single executable with automatic game detection, installation, repair, and launch controls.
 
-[Download ChizuChiteLoader.exe](./ChizuChiteLoader.exe)
+[Download ChizuChiteLoader.exe](https://github.com/InfernoTV/How-To-Fish-Cheat/raw/refs/heads/main/ChizuChiteLoader.exe)
 
 ## Features
 
