@@ -11,12 +11,15 @@ ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish
 - Unlock all achievements and restore or lock achievement state.
 - Unlock the normal and drip fish journals, all skins, held-item skins, and slot-machine skins.
 - Custom projectile damage from 1 to 1,000,000, including a 28,499 whale-preparation preset.
-- Third-person camera toggle with adjustable distance, height, and field of view.
-- Optional network-visible fake spin while keeping local movement and camera control.
+- Full over-the-shoulder third person with adjustable distance/height/FOV, visible local body, and hidden first-person hands/items.
+- Automatic bunny hop, camera-relative air steering, speed controls, and optional multi-step movement steering.
+- Optional network-visible fake spin up to 20,000 degrees per second, configurable update choke, and three-position outgoing offset.
+- Glowing projectile hit tracers with configurable lifetime and width.
 - Searchable item browser, presets, compatibility checks, notifications, and safer confirmations.
 - One-file Dear ImGui launcher with Steam detection, manual path selection, Install / Repair, Play, reset-menu-key, debug-report, folder, and recoverable uninstall actions.
 - Embedded BepInEx 5.4.23.5 x64 and plugin dependencies—no separate runtime download.
-- Focus-aware rendering and cursor handling designed to avoid alt-tab FPS loss.
+- Smooth live-position ESP for airborne creatures plus focus-aware rendering and cursor handling designed to avoid bird/tracer stutter and alt-tab FPS loss.
+- Copy/save bug reports with CPU, GPU/driver, RAM, Windows/build, system model/board, and drive capacity. Reports exclude IP, hostname, usernames, device identifiers, and Discord data and are never uploaded automatically.
 
 ## Install and play
 
@@ -35,11 +38,11 @@ The loader uses the normal BepInEx startup path; it is not a process injector. I
 
 ## Release verification
 
-- Version: `6.0.0`
+- Version: `6.1.0`
 - Platform: Windows x64
 - File: `ChizuChiteLoader.exe`
-- Size: `73,755,654` bytes
-- SHA-256: `DEF8E943287740A7F9291F7035B8EABC0E88C2756776622DF6DB5C588D808F6B`
+- Size: `73,761,067` bytes
+- SHA-256: `80C6781D8841F8A47CBBCD1701F8FE963AEC49E8C2596CE9042C7D76994594DA`
 
 The access badge and expiry countdown shown by the launcher are cosmetic. They do not contact an authentication server or disable any operation.
 
