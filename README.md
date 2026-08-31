@@ -4,6 +4,12 @@ ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish
 
 [Download ChizuChiteLoader.exe](https://github.com/InfernoTV/How-To-Fish-Cheat/raw/refs/heads/main/ChizuChiteLoader.exe)
 
+## Showcase
+
+[![Watch the ChizuChite showcase](https://i.ytimg.com/vi/ENcDGT4AUas/hqdefault.jpg)](https://youtu.be/ENcDGT4AUas)
+
+[Watch the full ChizuChite showcase on YouTube](https://youtu.be/ENcDGT4AUas).
+
 ## Features
 
 - Genuine Dear ImGui in-game menu with draggable, persistent layout and an `Insert` show/hide hotkey.
@@ -18,7 +24,7 @@ ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish
 - Searchable item browser, presets, compatibility checks, notifications, and safer confirmations.
 - One-file Dear ImGui launcher with Steam detection, manual path selection, Install / Repair, Play, reset-menu-key, debug-report, folder, and recoverable uninstall actions.
 - Embedded BepInEx 5.4.23.5 x64 and plugin dependencies—no separate runtime download.
-- Smooth live-position ESP for airborne creatures plus focus-aware rendering and cursor handling designed to avoid bird/tracer stutter and alt-tab FPS loss.
+- Smooth live-position ESP for airborne creatures; the cursor stays visible/confined during gameplay, fully unlocks for pause/minimize, and avoids bird/tracer stutter and alt-tab FPS loss.
 - Copy/save bug reports with CPU, GPU/driver, RAM, Windows/build, system model/board, and drive capacity. Reports exclude IP, hostname, usernames, device identifiers, and Discord data and are never uploaded automatically.
 
 ## Install and play
@@ -38,11 +44,11 @@ The loader uses the normal BepInEx startup path; it is not a process injector. I
 
 ## Release verification
 
-- Version: `6.1.0`
+- Version: `6.1.1`
 - Platform: Windows x64
 - File: `ChizuChiteLoader.exe`
-- Size: `73,761,067` bytes
-- SHA-256: `80C6781D8841F8A47CBBCD1701F8FE963AEC49E8C2596CE9042C7D76994594DA`
+- Size: `73,761,198` bytes
+- SHA-256: `366BC91D79AC6E111624BE1D6DA5D547EE9AF71AA5C76A18A9A38A0570DC3144`
 
 The access badge and expiry countdown shown by the launcher are cosmetic. They do not contact an authentication server or disable any operation.
 
