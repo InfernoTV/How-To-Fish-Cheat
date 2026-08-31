@@ -6,9 +6,9 @@ ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish
 
 ## Showcase
 
-[![Watch the ChizuChite showcase](https://i.ytimg.com/vi/ENcDGT4AUas/hqdefault.jpg)](https://github.com/InfernoTV/How-To-Fish-Cheat/releases/download/v6.1.1/ChizuChite-Showcase.mp4)
+[![Watch the ChizuChite showcase](https://i.ytimg.com/vi/ENcDGT4AUas/hqdefault.jpg)](https://flamery.fun/backgrounds/ChizuChite-Showcase.mp4)
 
-[Watch or download the full ChizuChite showcase](https://github.com/InfernoTV/How-To-Fish-Cheat/releases/download/v6.1.1/ChizuChite-Showcase.mp4).
+[Watch the full ChizuChite showcase](https://flamery.fun/backgrounds/ChizuChite-Showcase.mp4).
 
 ## Features
 
