@@ -1,6 +1,6 @@
 # How To Fish Cheat — ChizuChite
 
-ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish**. It packages the loader, plugin, Dear ImGui runtime, and BepInEx x64 files into a single executable with automatic game detection, installation, repair, and launch controls.
+ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish**. It packages the loader, plugin, Dear ImGui runtime, and BepInEx x64 files into a single executable with automatic game detection, custom/moved folder support, installation, repair, and launch controls.
 
 [Download ChizuChiteLoader.exe](https://github.com/InfernoTV/How-To-Fish-Cheat/raw/refs/heads/main/ChizuChiteLoader.exe)
 
@@ -22,7 +22,7 @@ ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish
 - Optional network-visible fake spin up to 20,000 degrees per second, configurable update choke, and three-position outgoing offset.
 - Glowing projectile hit tracers with configurable lifetime and width.
 - Searchable item browser, presets, compatibility checks, notifications, and safer confirmations.
-- One-file Dear ImGui launcher with Steam detection, manual path selection, Install / Repair, Play, reset-menu-key, debug-report, folder, and recoverable uninstall actions.
+- One-file Dear ImGui launcher with Steam detection, crash-safe persistent custom/moved path selection, Install / Repair, Play, reset-menu-key, debug-report, folder, and recoverable uninstall actions.
 - Embedded BepInEx 5.4.23.5 x64 and plugin dependencies—no separate runtime download.
 - Smooth live-position ESP for airborne creatures; the cursor stays visible/confined during gameplay, fully unlocks for pause/minimize, and avoids bird/tracer stutter and alt-tab FPS loss.
 - Copy/save bug reports with CPU, GPU/driver, RAM, Windows/build, system model/board, and drive capacity. Reports exclude IP, hostname, usernames, device identifiers, and Discord data and are never uploaded automatically.
@@ -32,11 +32,11 @@ ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish
 1. Download `ChizuChiteLoader.exe` above.
 2. Close **How to Fish** if it is already running.
 3. Run the loader. An unsigned local build may trigger a Windows SmartScreen warning.
-4. Let it detect the Steam game folder, or select the folder containing `How to Fish.exe`.
+4. Let it detect the Steam game folder, or select the folder containing `How to Fish.exe`. The loader remembers valid custom or moved folders.
 5. Choose **Install / Repair**, then **Play**.
 6. Press `Insert` in game to open or close the ChizuChite menu.
 
-The loader uses the normal BepInEx startup path; it is not a process injector. It validates embedded payloads before installation, preserves existing BepInEx configuration, quarantines duplicate plugin copies, and keeps recoverable backups for uninstall.
+The loader uses the normal BepInEx startup path; it is not a process injector. It validates embedded payloads before installation, preserves existing BepInEx configuration, quarantines duplicate plugin copies, keeps recoverable backups for uninstall, and launches the executable from the selected directory directly.
 
 ## Contact
 
@@ -44,11 +44,11 @@ The loader uses the normal BepInEx startup path; it is not a process injector. I
 
 ## Release verification
 
-- Version: `6.1.1`
+- Version: `6.1.2`
 - Platform: Windows x64
 - File: `ChizuChiteLoader.exe`
-- Size: `73,761,198` bytes
-- SHA-256: `366BC91D79AC6E111624BE1D6DA5D547EE9AF71AA5C76A18A9A38A0570DC3144`
+- Size: `73,762,071` bytes
+- SHA-256: `355C00D720D939E1080FF450652E173EBA7F7B1EA6F3C833E88D5DCD29474F6B`
 
 The access badge and expiry countdown shown by the launcher are cosmetic. They do not contact an authentication server or disable any operation.
 
