@@ -36,7 +36,7 @@ ChizuChite is a one-file Windows launcher and BepInEx mod menu for **How to Fish
 5. Choose **Install / Repair**, then **Play**.
 6. Press `Insert` in game to open or close the ChizuChite menu.
 
-The loader uses the normal BepInEx startup path; it is not a process injector. It validates embedded payloads before installation, preserves existing BepInEx configuration, quarantines duplicate plugin copies, keeps recoverable backups for uninstall, and launches the executable from the selected directory directly.
+The loader uses the normal BepInEx startup path; it is not a process injector. It validates embedded payloads before installation, preserves existing BepInEx configuration, quarantines duplicate plugin copies, keeps recoverable backups for uninstall, launches official installs through Steam, and launches custom standalone folders directly. Reset Key can create the Insert configuration before the first successful game run.
 
 ## Contact
 
@@ -44,11 +44,11 @@ The loader uses the normal BepInEx startup path; it is not a process injector. I
 
 ## Release verification
 
-- Version: `6.1.3`
+- Version: `6.1.4`
 - Platform: Windows x64
 - File: `ChizuChiteLoader.exe`
-- Size: `73,762,670` bytes
-- SHA-256: `79890739E82FCACA46C156278BBE9D8189BE37024F0D71EF7ECA5B5B38180ABB`
+- Size: `73,764,386` bytes
+- SHA-256: `58097D85CC717B2A6974F38C36B92D34900CA285FB5B2E3404D5DD33735E8213`
 
 The access badge and expiry countdown shown by the launcher are cosmetic. They do not contact an authentication server or disable any operation.
 
